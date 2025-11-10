@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="The AI operating system for executive search"
+	subtitle="Infrastructure that transforms weeks of manual research into hours of precision-driven intelligence. Built for search firms, funds, and talent teams who need speed without compromise."
+	imageSrc="/generated/image-a-team-of-mid-career-to-senior-professio.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by leading tech companies and funds"
+	logoUrls={[
+		'https://cdn.brandfetch.io/miro.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/prosus.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/helsing.ai/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/psg.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
