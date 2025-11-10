@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-11-10T12:32:16.976Z -->
+<!-- Updated: 2025-11-10T12:33:48.343Z -->
 
 # Current Todo List State
 
@@ -10,3 +10,10 @@
 - [x] Update +page.svelte to import and use CenteredTextOnlyHero component
 - [x] Run comprehensive error check and fix all issues
 - [x] Final design system compliance check
+- [x] Call update_brand_variables to generate brand system
+- [x] View current configuration files (index.ts, app.html, theme.css)
+- [x] Update app.html to set data-theme='dark'
+- [x] Update theme.css to enable dark mode styling
+- [x] Update index.ts with Topliner brand metadata and configuration
+- [x] Verify style guide alignment (colors, typography, brand personality)
+- [x] Run comprehensive error check and fix all issues
